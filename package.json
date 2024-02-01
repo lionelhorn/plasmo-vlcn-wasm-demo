@@ -1,0 +1,25 @@
+{
+  "name": "@lionelhorn/lbc-plasmo",
+  "displayName": "plasmo-vlcn-wasm",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "plasmo dev"
+  },
+  "dependencies": {
+    "@vlcn.io/crsqlite-wasm": "0.15.2"
+  },
+  "devDependencies": {
+    "plasmo": "0.84.0"
+  },
+  "manifest": {
+    "host_permissions": [
+      "https://*/*"
+    ],
+    "permissions": [
+      "tabs"
+    ],
+    "content_security_policy": {
+      "extension_pages": "script-src 'self' 'wasm-unsafe-eval' http://localhost;object-src 'self';"
+    }
+  }
+}
