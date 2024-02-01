@@ -18,5 +18,5 @@ Install extension in chrome
 In the console you'll see data saved in sqlite and retrieved back.
 
 It should look like
-![img_1.png](img_1.png) 
+![screenshot.png](docs/screenshot.png)
 
