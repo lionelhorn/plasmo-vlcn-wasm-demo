@@ -1,6 +1,6 @@
 {
-  "name": "@lionelhorn/lbc-plasmo",
-  "displayName": "plasmo-vlcn-wasm",
+  "name": "plasmo-vlcn-wasm-demo",
+  "displayName": "plasmo-vlcn-wasm-demo",
   "version": "0.0.1",
   "scripts": {
     "dev": "plasmo dev"
